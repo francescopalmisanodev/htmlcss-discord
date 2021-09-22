@@ -3,3 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    color: #fff;
+}
+nav {
+    background-color:lightblue;
+}
+
+/* utilities */
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+.small-col{
+    float: left;
+    width: 30%;
+}
+.small-col img{
+    margin-top: 3%;
+}
+.big-col{
+    float: left;
+    width: 70%;
+}
+a{  
+    display: inline-block;
+    text-decoration: none;
+}
+li {
+    display:inline-block;
+    list-style: none;
+    margin-right: 3%;
+    line-height: 50px;
+}
+nav li:last-child{
+    margin-left: 38%;
+}
+
